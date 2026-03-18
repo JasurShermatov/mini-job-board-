@@ -1,0 +1,2 @@
+PROJECT_NAME=Mini Job Platform API
+DATABASE_URL=postgresql+psycopg://jasur@localhost:5432/job_platform_db

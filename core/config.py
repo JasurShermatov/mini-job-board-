@@ -4,6 +4,6 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "Mini Job Platform API"
     DATABASE_URL: str = "postgresql+psycopg://postgres:postgres@localhost:5432/job_platform_db"
 
-    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
+    model_config = SettingsConfigDict(env_file=".eng", env_file_encoding="utf-8")
 
 settings = Settings()
