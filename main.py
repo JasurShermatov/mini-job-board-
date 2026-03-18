@@ -4,7 +4,6 @@ from fastapi import FastAPI
 
 from core.config import settings
 from core.database import Base, engine
-import models.job
 from routers.jobs import router as jobs_router
 
 
