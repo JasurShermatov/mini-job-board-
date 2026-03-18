@@ -123,3 +123,4 @@ uv run fastapi run main.py
 - Database tables are created automatically at application startup.
 - Validation is handled with Pydantic schemas.
 - Database access is handled via SQLAlchemy async session dependency.
+# mini-job-board-
